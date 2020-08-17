@@ -3,13 +3,19 @@ INSTALLTION GUIDE
 
 Apache Druid
 
-Prerequisites\n
+Prerequisites
+
 JAVA 8, Linux, Mac OS X (windows is not supported), 4CPU/16GB RAM environment.
+
 Downloading
+
 https://www.apache.org/dyn/closer.cgi?path=/druid/0.17.0/apache-druid-0.17.0-bin.tar.gz
 Extract Druid by running the following commands in your terminal:
+
 tar -xzf apache-druid-0.17.0-bin.tar.gz
+
 cd apache-druid-0.17.0
+
 Starting up:
 From the apache-druid-0.17.0 package root, run the following command:
 ./bin/start-micro-quickstart
