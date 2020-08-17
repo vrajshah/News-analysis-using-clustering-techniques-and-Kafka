@@ -1,7 +1,7 @@
 # News-analysis-using-clustering-techniques-and-Kafka
 INSTALLTION GUIDE
 
-Apache Druid
+Apache Druid:
 
 Prerequisites
 
@@ -29,10 +29,11 @@ $ ./bin/start-micro-quickstart
 
 Once the cluster has started, you can navigate to http://localhost:8888. The Druid router process, which serves the Druid console, resides at this address.
 
-Apache Kafka
+Apache Kafka:
 
 Kafka Download
 https://www.apache.org/dyn/closer.cgi?path=/kafka/2.4.1/kafka_2.12-2.4.1.tgz
+
 Extracting it:
 > tar -xzf kafka_2.12-2.4.1.tgz
 > cd kafka_2.12-2.4.1
@@ -46,5 +47,6 @@ Now start the Kafka server:
 > bin/kafka-server-start.sh config/server.properties
 
 Create Topic
+
 Let's create a topic named "test" with a single partition and only one replica:
 > bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
