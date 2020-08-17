@@ -3,7 +3,7 @@ INSTALLTION GUIDE
 
 Apache Druid
 
-Prerequisites
+Prerequisites\n
 JAVA 8, Linux, Mac OS X (windows is not supported), 4CPU/16GB RAM environment.
 Downloading
 https://www.apache.org/dyn/closer.cgi?path=/druid/0.17.0/apache-druid-0.17.0-bin.tar.gz
